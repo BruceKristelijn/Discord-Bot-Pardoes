@@ -5,7 +5,7 @@ I have plans of actually expanding using json to allow for dynamic commands and 
 
 <h2>Planned commands and features:</h2>
 
-<b>pardoes play [yt link]</b> - This command would stream audio from youtube using a link or search term.
-<b>pardoes [audiofile]</b> - plays a audiofile in the initializer's channel.
-<b>pardoes addaudiofile [name]</b> - Adds a audiofile. Audio file as attachment to message(?).
-<b>pardoes removeaudiofile [name]</b> - Uses the name parameter to remove audio from it's memory.
+<b>pardoes play [yt link]</b> - This command would stream audio from youtube using a link or search term.<br>
+<b>pardoes [audiofile]</b> - plays a audiofile in the initializer's channel.<br>
+<b>pardoes addaudiofile [name]</b> - Adds a audiofile. Audio file as attachment to message(?).<br>
+<b>pardoes removeaudiofile [name]</b> - Uses the name parameter to remove audio from it's memory.<br>
