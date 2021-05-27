@@ -2,6 +2,7 @@
 const Discord = require('discord.js');
 
 //Import all components.
+const Settings = require('./modules/settings');
 const MusicPlayer = require('./modules/musicplayer');
 const MemeGetter = require('./modules/memegetter');
 const QuoteGetter = require('./modules/quotegetter');
@@ -24,6 +25,7 @@ bot.on('ready', () => {
   bot.user.setActivity("Piraña Summer Remix", { type: "LISTENING" })
 
   //Setup modules.
+  new Settings().SetupBot(bot);
   new MusicPlayer().SetupBot(bot);
   new MemeGetter().SetupBot(bot);
   new QuoteGetter().SetupBot(bot);
@@ -58,10 +60,8 @@ bot.on('message', msg => {
     bot.events.forEach(function (event) {
       var arr = msg.content.split(" ");
 
-      console.log(arr);
-
-      if (arr[0] == 'pardoes' && arr.legnth > 1) {
-        event.event(arr[1]);
+      if (arr[0] == 'pardoes' && event.message == arr[1]) {
+        event.event(msg);
       }
     });
   }
