@@ -25,22 +25,22 @@
         "reply": "DRAKENJAGERS ONVERSAAGD, LUISTER NAAR WAT DE KONING VRAAGT!"
     },
     {
-        "command": "m promenade",
+        "command": "m-promenade",
         "location": "https://www.youtube.com/watch?v=t6QPBtJO5G0",
         "reply": "Music: Pardoes Promenade"
     },
     {
-        "command": "m parkeer",
+        "command": "m-parkeer",
         "location": "https://www.youtube.com/watch?v=qANF8xk9vJE",
         "reply": "Music: Parkeer Promenade"
     },
     {
-        "command": "m parkeer",
+        "command": "m-parkeer",
         "location": "https://www.youtube.com/watch?v=qANF8xk9vJE",
         "reply": "Music: Parkeer Promenade"
     },
     {
-        "command": "m pirana",
+        "command": "m-pirana",
         "location": "https://www.youtube.com/watch?v=paAeIhT4pko",
         "reply": "Music: Piraña"
     }
