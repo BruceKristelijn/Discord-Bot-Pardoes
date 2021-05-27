@@ -1,30 +1,13 @@
-# How to Build Your First Discord Bot with Node.js
+# Discord-Bot-Pardoes
+A discord bot for me and my friends' server. Just some sloppy Node js code as a proof of concept. 
 
-Michiel Mulders shows you how to install and set up a new Discord bot, which is made easier thanks to the API offered by the Discord.js package.
+I have plans of actually expanding using json to allow for dynamic commands and maybe easier to submit commands and dynamic commands.
 
-Link to article on SitePoint: [https://www.sitepoint.com/discord-bot-node-js/](https://www.sitepoint.com/discord-bot-node-js/)
+<h2>Planned commands and features:</h2>
 
-## Requirements
-
-- [Node.js](http://nodejs.org/)
-- [Discord](https://discordapp.com/) account
-
-## Installation Steps (if applicable)
-
-1. Clone repo
-2. Run `npm install`
-3. Add Discord credentials in a `.env` file
-3. Run `node index.js`
-4. Interact with your Discord bot via your web browser
-
-## License
-
-SitePoint's code archives and code examples are licensed under the MIT license.
-
-Copyright © 2020 SitePoint
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+<b>pardoes [audiofile]</b> - plays a audiofile in the initializer's channel.<br>
+<b>pardoes addaudiofile [name]</b> - Adds a audiofile. Audio file as attachment to message(?).<br>
+<b>pardoes removeaudiofile [name]</b> - Uses the name parameter to remove audio from it's memory.<br>
+<b>pardoes oldmeme</b> - Gets and extremely old meme from memes channel. <br>
+<b>pardoes setting memechannel [id]</b> - Changes the channel ID for the memes. <br>
+<b>pardoes setting quotechannel [id]</b> - Changes the channel ID for the quote. <br>
