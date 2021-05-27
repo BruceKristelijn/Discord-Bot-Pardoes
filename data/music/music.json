@@ -8,5 +8,40 @@
         "command": "chugjug",
         "location": "https://www.youtube.com/watch?v=Z0Uh3OJCx3o&ab_channel=LeviathanLeviathanGeverifieerd",
         "reply": "Ez victory royale"
+    },
+    {
+        "command": "ojpunctuel",
+        "location": "https://www.youtube.com/watch?v=Ka-zUDmThFI",
+        "reply": "Denken jullie aan het protocol?"
+    },
+    {
+        "command": "sus",
+        "location": "https://www.youtube.com/watch?v=grd-K33tOSM",
+        "reply": "Imposter?!"
+    },
+    {
+        "command": "drakenjagers",
+        "location": "https://www.youtube.com/watch?v=v-Qm6VHRDR0",
+        "reply": "DRAKENJAGERS ONVERSAAGD, LUISTER NAAR WAT DE KONING VRAAGT!"
+    },
+    {
+        "command": "m promenade",
+        "location": "https://www.youtube.com/watch?v=t6QPBtJO5G0",
+        "reply": "Music: Pardoes Promenade"
+    },
+    {
+        "command": "m parkeer",
+        "location": "https://www.youtube.com/watch?v=qANF8xk9vJE",
+        "reply": "Music: Parkeer Promenade"
+    },
+    {
+        "command": "m parkeer",
+        "location": "https://www.youtube.com/watch?v=qANF8xk9vJE",
+        "reply": "Music: Parkeer Promenade"
+    },
+    {
+        "command": "m pirana",
+        "location": "https://www.youtube.com/watch?v=paAeIhT4pko",
+        "reply": "Music: Piraña"
     }
 ]
