@@ -1,20 +1,33 @@
 {
   "name": "discord-bot",
   "version": "1.0.0",
-  "description": "Discord bot for SitePoint",
+  "description": "Discord bot for ToverTwinkels.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "run-local": "node index.js",
+    "run-docker": "run-docker.bat",
+    "build": "run-docker.bat",
+    "watch": "npm-watch"
   },
-  "author": "Michiel Mulders",
+  "watch": {
+    "build": {
+      "patterns": [
+        ""
+      ],
+      "extensions": "js,jsx,json"
+    }
+  },
+  "author": "Bruce Kristelijn",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.5.1",
-    "dotenv": "^8.2.0",
+    "@discordjs/opus": "^0.3.3",
+    "discord.js": "^12.5.1",
     "ffmpeg": "0.0.4",
-    "ffmpeg-binaries": "^3.2.2-3",
-    "ffmpeg-static": "^4.0.1",
-    "node-gyp": "^6.1.0",
-    "opusscript": "0.0.7"
+    "ffmpeg-static": "^4.2.7",
+    "fluent-ffmpeg": "^2.1.2",
+    "npm-watch": "^0.9.0",
+    "ytdl": "^1.4.1",
+    "ytdl-core": "^4.4.4"
   }
 }
