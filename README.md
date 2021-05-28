@@ -11,3 +11,4 @@ I have plans of actually expanding using json to allow for dynamic commands and 
 <b>pardoes oldmeme</b> - Gets and extremely old meme from memes channel. <br>
 <b>pardoes setting memechannel [id]</b> - Changes the channel ID for the memes. <br>
 <b>pardoes setting quotechannel [id]</b> - Changes the channel ID for the quote. <br>
+<b>pardoes playtime</id> - Records and displays playtimes. <br>
