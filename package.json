@@ -27,7 +27,7 @@
     "ffmpeg-static": "^4.2.7",
     "fluent-ffmpeg": "^2.1.2",
     "npm-watch": "^0.9.0",
-    "sqlite3": "^5.0.2",
+    "sqlite3": "^5.0.3",
     "ytdl": "^1.4.1",
     "ytdl-core": "^4.4.4"
   }
