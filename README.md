@@ -1,3 +1,6 @@
+** NOTE **
+This repo is abandoned. I will not be working on this specific repository. While I have future plans for a discord bot, when I start this I will open a new project.
+
 # Discord-Bot-Pardoes
 A discord bot for me and my friends' server. Just some sloppy Node js code as a proof of concept. 
 
